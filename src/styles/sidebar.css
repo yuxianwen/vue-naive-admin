@@ -1,0 +1,22 @@
+/* $sideBarWidth: 210px; */
+
+.main-container {
+  /* min-height: 100%; */
+  height: calc(100% - 96px);
+  transition: margin-left 0.28s;
+  margin-left: 260px;
+  position: relative;
+}
+.sidebar-container {
+  transition: width 0.28s;
+  width: 260px !important;
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  font-size: 0px;
+  top: 96px;
+  bottom: 0;
+  left: 0;
+  z-index: 1001;
+  overflow: hidden;
+}

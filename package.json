@@ -1,0 +1,82 @@
+{
+  "name": "vue-naive-admin",
+  "author": "Dylan <yuxianweng@gmail.com>",
+  "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/fa": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.5",
+    "js-cookie": "^3.0.1",
+    "naive-ui": "^2.30.3",
+    "normalize.css": "^8.0.1",
+    "path-to-regexp": "^6.2.1",
+    "vfonts": "^0.0.3",
+    "vite-plugin-windicss": "^1.8.4",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuex": "^4.0.2",
+    "windicss": "^3.5.4"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "@types/node": "^17.0.42",
+    "@types/webpack-env": "^1.17.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "postcss-cssnext": "^3.1.1",
+    "postcss-nesting": "^10.1.8",
+    "sass": "^1.52.3",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.8.7",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.6",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "admin",
+    "dashboard",
+    "element-ui",
+    "boilerplate",
+    "admin-template",
+    "management-system"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanJiaChen/vue-element-admin.git"
+  }
+}

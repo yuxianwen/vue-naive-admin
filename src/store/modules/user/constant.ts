@@ -1,0 +1,8 @@
+const SET_TOKEN = "SET_TOKEN";
+const GET_TOKEN = "GET_TOKEN";
+const LOGOUT = "LOGOUT";
+const GET_INFO = "GET_INFO";
+const SET_ROLES = "SET_ROLES";
+// resetToken
+const RESET_TOKEN = "RESET_TOKEN";
+export { SET_TOKEN, GET_TOKEN, LOGOUT, GET_INFO, SET_ROLES, RESET_TOKEN };
